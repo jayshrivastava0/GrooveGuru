@@ -32,6 +32,7 @@ By following the steps outlined in this README, you'll set up your own smart ass
     - [Docker Setup](#docker-setup)
     - [Deploying on GCP](#deploying-on-gcp)
   - [Example Usage](#example-usage)
+    - [Did you noticed GrooveGuru knew my name?](#did-you-noticed-grooveguru-knew-my-name)
   - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -267,17 +268,27 @@ Deploying GrooveGuru is a crucial step to make your assistant live. We’ll depl
     2. **Create a New VM Instance**:
        - Click on "Create Instance" and configure your VM settings (e.g., machine type, region).
        - Under "Container" settings, specify the Docker image you want to deploy using the URL from GCR (e.g., `gcr.io/your-project-id/grooveguru-image:latest`).
-    
-    3. **Customize Network and Firewall Settings**:
-       - Ensure that the correct ports (e.g., port 8080) are open to allow traffic to your application.
+      
+        <div align="center">
+        <img src="instance_creation.png" alt="Open AI Signup" width="500" height="300">
+        </div>
+        <div align="center">
+        <img src="docker_gcr.png" alt="Open AI Signup" width="500" height="600">
+        </div>
 
-    4. **Deploy and Manage**:
+    3. **Deploy and Manage**:
        - Once configured, click "Create" to deploy your instance.
        - You can manage your instance directly from the GCP Console, including viewing logs, monitoring performance, and making any necessary adjustments.
+  
+    4. **Customize Network and Firewall Settings**:
+       - Ensure that the correct ports (e.g., port 8080) are open to allow traffic to your application.
+        <div align="center">
+        <img src="firewall_policies.png" alt="Open AI Signup" width="500" height="270">
+        </div>
+        <div align="center">
+        <img src="allow_ports.png" alt="Open AI Signup" width="500" height="600">
+        </div>
 
-
-
-> ![GCP Deployment](path_to_gcp_deployment_image)
 
 ---
 
@@ -288,9 +299,20 @@ Once GrooveGuru is deployed, users can interact with it via WhatsApp. Here’s a
 1. **User:** "Hey GrooveGuru, recommend me a song!"
 2. **GrooveGuru:** "You might enjoy 'Blinding Lights' by The Weeknd. Check it out!"
 
-> ![Example Usage](path_to_example_usage_video)
+<div align="center">
+<img src="recommend_demo.jpg" alt="Open AI Signup" width="250" height="500">
+</div>
 
----
+### Did you noticed GrooveGuru knew my name?
+
+<div align="center">
+<img src="know_name.jpg" alt="Open AI Signup" width="250" height="500">
+</div>
+
+
+Ah, so you noticed? 😏 Don't worry, GrooveGuru isn't stalking you... yet! But hey, with all the data out there, it's only a matter of time before even your toaster knows your favorite playlist. Just kidding... or am I? 🎶🤖
+
+
 
 ## Acknowledgements
 
