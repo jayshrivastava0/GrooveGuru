@@ -1,7 +1,7 @@
 # Groove Guru
 
 <div align="center">
-  <img src="GrooveGuru_Logo.jpg" alt="GrooveGuru Logo" width="300" height="300">
+  <img src="GrooveGuru_Logo.jpg" alt="GrooveGuru Logo" width="500" height="500">
 </div>
 
 ## Your Personalized Music Recommendation Assistant on WhatsApp
@@ -57,12 +57,12 @@ Before diving into the code, you'll need to set up a few things. Let's break it 
     </div>
 2. **Obtain Your Account SID and Auth Token**: These credentials are essential for integrating Twilio with your project. Find them on your Twilio Console dashboard.
     <div align="center">
-    <img src="Account_SID.png" alt="Whatsapp Setup" width="400" height="170">
+    <img src="Account_SID.png" alt="Whatsapp Setup" width="600" height="350">
     </div>
 
 3. **Set Up the WhatsApp Sandbox**: Twilio's WhatsApp Sandbox allows you to test sending and receiving messages. Follow the setup guide provided by Twilio [here](https://www.twilio.com/docs/whatsapp/sandbox).
     <div align="center">
-    <img src="WhatsApp_Setup.png" alt="Whatsapp Setup" width="400" height="170">
+    <img src="WhatsApp_Setup.png" alt="Whatsapp Setup" width="600" height="350">
     </div>
 
 4. **Twilio WhatsApp Number**: You'll use the Twilio-provided number to send and receive WhatsApp messages. This number is universal for twilio `+1 415 523 8886`
@@ -82,7 +82,7 @@ Before diving into the code, you'll need to set up a few things. Let's break it 
     </div>
 3. **Create an OpenAI Assistant**: Use OpenAI's Playground to create and configure your assistant. Save the Assistant ID for later use.
     <div align="center">
-    <img src="playground.png" alt="Open AI Signup" width="700" height="320">
+    <img src="playground.png" alt="Open AI Signup" width="900" height="500">
     </div>
 
 ### Environment Variables
