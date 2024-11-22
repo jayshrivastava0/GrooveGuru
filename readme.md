@@ -8,6 +8,10 @@
 
 
 
+https://github.com/user-attachments/assets/e9e1ea99-11c8-4393-9960-e9d5e7b88ab9
+
+
+
 
 Welcome to **GrooveGuru**—an AI-powered music recommendation assistant that integrates OpenAI's GPT models with Twilio's WhatsApp API. This readme walks you through setting up GrooveGuru, understanding its code structure, and deploying it on Google Cloud Platform (GCP) using Docker. 
 
